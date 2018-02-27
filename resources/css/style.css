@@ -1,5 +1,5 @@
 html {
-  18px
+  18px;
 }
 * {
 font-family: "Helvetica";
@@ -65,10 +65,31 @@ margin-left: 0;
 }
 .services {
   display: flex;
+  justify-content: space-around;
+  padding-top: 3rem;
+  height: 8rem;
+  padding-right: 6rem;
+  padding-left: 6rem;
 }
-.graphics img{
-
-
-  /* justify-content: center;
-  align-items: center; */
+.services #paper img{
+  height: 5rem;
+  width: 3.5rem;
+}
+.services  #ruler img {
+  width: 5rem;
+  height: 2.5rem;
+}
+.services   #truck img {
+  height: 3rem;
+  width: 5rem;
+}
+.services  p {
+  width: 5rem;
+  text-align: center;
+}
+.services #ruler p{
+  padding-top: 2.5rem;
+}
+.services #truck p{
+  padding-top: 2rem;
 }
