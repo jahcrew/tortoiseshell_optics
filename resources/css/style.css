@@ -106,17 +106,31 @@ margin-left: 0;
   margin-top: 3rem;
   width: 15rem;
   /* margin-right: 5%; */
-
 }
 .headings  p {
   padding-top: 1rem;
   width: 20rem;
-
-
 }
 .headings
 #phil #appt {
   width: 20rem;
-
+}
+h2 {
   text-align: center;
+}
+.footer {
+  display: flex;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-top: 2rem;
+  align-items: center;
+  background-color: azure;
+}
+.footer img {
+  height: 1.5rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
+}
+.footer h3 {
+  padding-top: 0;
 }
