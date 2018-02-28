@@ -93,3 +93,30 @@ margin-left: 0;
 .services #truck p{
   padding-top: 2rem;
 }
+.headings {
+  display: flex;
+  justify-content: space-around;
+}
+.headings  h2 {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  margin-top: 3rem;
+  width: 15rem;
+  /* margin-right: 5%; */
+
+}
+.headings  p {
+  padding-top: 1rem;
+  width: 20rem;
+
+
+}
+.headings
+#phil #appt {
+  width: 20rem;
+
+  text-align: center;
+}
