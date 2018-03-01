@@ -160,7 +160,7 @@ h2 {
   }
 }
 @media only screen and (max-width: 470px){
-        /* this doesn't work on my phone - try larger max-width to see if watch goes away */
+        /* test on phone */
 .background {
   background-position: 20%;
   height: 20rem;
@@ -204,21 +204,36 @@ h2 {
 .services #paper p {
   padding-bottom: 1.54rem;
 }
-.services #ruler p{
+.services #ruler p {
   padding-bottom: 1.54rem;
   padding-top: 0;
 }
-.services #truck p{
-  padding-bottom: 1.54rem;
+.services #truck p {
+  padding-bottom: 0;
   padding-top: 0;
+  margin-bottom: 0.5rem;
 }
-.headings{
-
+.services p {
+  font-size: 0.77rem;
+}
+.headings {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headings h2 {
+  margin-top: 1rem;
+  width: 100%;
+}
+.headings p {
+  padding-top: 1rem;
+  width: 23rem;
+  font-size: 0.77rem;
 }
 .footer {
   align-items: center;
 }
-.footer h3{
+.footer h3 {
   display: none;
 }
 .footer img {
